@@ -1,0 +1,17 @@
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px auto;
+    background-color: #E3E5E7;
+}
+.main {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 95%;
+}

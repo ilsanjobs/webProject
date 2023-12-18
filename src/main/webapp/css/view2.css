@@ -1,0 +1,68 @@
+img {
+            height: 80px;
+        }
+
+        .box1 {
+            height: 110px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .box1-1 {
+            width: 15%;
+            height: 100px;
+            border-color: black;
+            border-width: 1px;
+            border-style: solid;
+            float: left;
+        }
+
+        .box1-2 {
+            width: 30%;
+            height: 100px;
+            border-color: black;
+            border-left-color: white;
+            border-width: 1px;
+            border-style: solid;
+            float: left;
+        }
+
+        .box1-3 {
+            width: 20%;
+            height: 100px;
+            border-color: black;
+            border-left-color: white;
+            border-width: 1px;
+            border-style: solid;
+            float: left;
+        }
+
+        .box1-4 {
+            width: 10%;
+            height: 100px;
+            border-color: black;
+            border-left-color: white;
+            border-width: 1px;
+            border-style: solid;
+            float: left;
+        }
+
+        .box1-5 {
+            width: 20%;
+            height: 100px;
+            border-color: black;
+            border-left-color: white;
+            border-width: 1px;
+            border-style: solid;
+            float: left;
+        }
+
+        footer {
+            text-align: left;
+            width: 96%;
+            height: 50px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: white;
+            border-top-color: black;
+        }

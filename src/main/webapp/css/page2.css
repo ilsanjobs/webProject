@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+main {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:10px auto;
+    background-color: #E3E5E7;
+}
+.main {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    width: 95%;
+}
+.searchbox {
+    width: 90%;
+    margin-bottom: 10px;
+}
+/*.restaurant-box {
+    display: flex;
+    height: auto;  이미지 높이에 따라 유동적으로 조절되도록 변경 
+    padding-top: 10px;
+    padding-bottom: 10px;
+}*/
+
+.restaurant-image {
+    width: 10%;
+    display: inline-block;
+    /*overflow: hidden;  이미지가 부모 요소를 넘어갈 경우 숨기도록 추가 */
+}
+
+.restaurant-image img {
+    width: 100%;
+    height: auto;
+   /* object-fit: cover;  이미지 비율 유지하며 부모 요소에 맞추도록 변경 */
+}
+.restaurant-box {
+    display: flex;
+    height: 230px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.restaurant-image {
+
+    width: 10%;
+    display: inline-block;  
+}
+
+/*.restaurant-image img {
+    width: 100%;  
+    height: auto;  
+}*/
+
+.restaurant-data {
+    width: 60%;
+    margin-left: 2%;
+}
